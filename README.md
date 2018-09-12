@@ -1,0 +1,2 @@
+# DocumentExporterKata
+Document exporter kata
