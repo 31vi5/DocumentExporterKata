@@ -1,0 +1,10 @@
+{
+	"name": "31vi5/DocumentExporterKata",
+	"description": "Document Exporter Kata",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Dockata\\": "src/"
+		}
+	}
+}
