@@ -1,10 +1,19 @@
 {
 	"name": "31vi5/DocumentExporterKata",
 	"description": "Document Exporter Kata",
-	"require": {},
+	"require": {
+		"php": ">= 7.1"
+	},
 	"autoload": {
 		"psr-4": {
-			"Dockata\\": "src/"
+			"Dockata\\": "src/",
+			"Dockata\\Tests\\": "tests/"
 		}
+	},
+	"require-dev": {
+		"nette/tester": "^2.0"
+	},
+	"scripts": {
+		"app:tests": "php vendor/nette/tester/src/tester.php tests -C"
 	}
 }

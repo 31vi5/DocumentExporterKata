@@ -30,8 +30,8 @@ class BasicDocument
 	public function getRawParagraphs(): array
 	{
 		$p = $this->p;
-		unset($p[0]);
 		unset($p[count($p) - 1]);
+		unset($p[0]);
 
 		return $p;
 	}

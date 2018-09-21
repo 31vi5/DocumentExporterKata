@@ -14,7 +14,7 @@ class Exporter
 			$htmlExport = '<html><head></head><body>';
 
 			foreach ($p as $para) {
-				$htmlExport .= '<p style="color=' . (isset($para['color']) ? $para['color'] : 'white') .
+				$htmlExport .= '<p style="color:' . (isset($para['color']) ? $para['color'] : 'white') .
 					'">' .
 					$para['text'] . '</p>';
 			}
@@ -27,8 +27,8 @@ class Exporter
 
 			$jsonExport = '[';
 			foreach ($p as $para) {
-				$jsonExport .= '{"text":"' . $para['text'] . '","color": ' .
-					(isset($para['color']) ? $para['color'] : 'white') . '},';
+				$jsonExport .= '{"text":"' . $para['text'] . '","color":"' .
+					(isset($para['color']) ? $para['color'] : 'white') . '"},';
 			}
 			$jsonExport = rtrim($jsonExport, ',');
 			$jsonExport .= ']';
