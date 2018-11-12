@@ -13,5 +13,5 @@ And not only that, we'd like to add smileys after each paragraph, to make it eve
 Your job is to add those features. We might even think about more modifications to the paragraphs in the future so please be ready for those. 
 Some tests might be failing right now, but feel free to fix it by enabling those features. 
 
-Feel free to rearange the code as you like, but make sure everything is tested.   
+Feel free to do change anything you want, but make sure everything is tested.
 
